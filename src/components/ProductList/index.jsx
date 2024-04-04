@@ -16,7 +16,7 @@ export default function ProductList() {
   const sizes = searchParams.get("sizes");
 
   useEffect(() => {
-    if (searchParams.size > 0) handleFilterList();
+    handleFilterList();
   }, [searchParams]);
 
   function handleFilterList() {
