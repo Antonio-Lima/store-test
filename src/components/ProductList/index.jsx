@@ -15,7 +15,7 @@ export default function ProductList() {
   return (
     <div className="w-full">
       {products.length > 0 ? (
-        <ul className="grid grid-cols-3 gap-2">
+        <ul className="flex flex-wrap justify-evenly gap-2">
           {products.map((item) => (
             <li key={item.id}>
               <ProductItem item={item} />
