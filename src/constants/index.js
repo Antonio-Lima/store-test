@@ -82,7 +82,7 @@ export const productsList = [
     price: 159.99,
     color: "blue",
     sex: "female",
-    sizes: ["P", "M", "XG", "XXG"],
+    sizes: ["P", "M", "XXG"],
     details: {
       title: "CLÁSSICA E ATEMPORAL, FEITA COM MATERIAIS RECICLADOS",
       content:
