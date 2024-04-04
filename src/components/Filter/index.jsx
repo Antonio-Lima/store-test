@@ -20,7 +20,7 @@ export default function Filter() {
 
   async function handleSearch() {
     const params = new URLSearchParams("");
-    if (name) params.append("name", name);
+    if (name) params.append("name", name.toLowerCase());
     if (sex && sex !== "all") params.append("sex", sex);
     if (colors) params.append("colors", colors);
     if (sizes) params.append("sizes", sizes);

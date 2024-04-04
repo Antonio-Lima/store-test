@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Store",
+  title: "Sua loja de esportes",
   description: "Created by Antônio Lima",
 };
 
