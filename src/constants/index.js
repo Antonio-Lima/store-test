@@ -98,3 +98,5 @@ export const productsList = [
     },
   },
 ];
+
+export const menuItems = ["Contato", "Sobre", "Dúvidas"];
