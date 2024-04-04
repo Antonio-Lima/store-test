@@ -7,6 +7,7 @@ export const productsList = [
     price: 119.99,
     color: "blue",
     sex: "male",
+    sizes: ["PP", "P", "M", "G"],
     details: {
       title: "DESIGN VERSÁTIL, FEITO COM MATERIAIS RECICLADOS",
       content:
@@ -21,6 +22,7 @@ export const productsList = [
     price: 119.99,
     color: "black",
     sex: "male",
+    sizes: ["P", "M", "G", "XG", "XXG"],
     details: {
       title: "DESIGN SIMPLES COM FORTE IDENTIDADE ADIDAS",
       content:
@@ -35,6 +37,7 @@ export const productsList = [
     price: 149.99,
     color: "white",
     sex: "male",
+    sizes: ["PP", "P", "M", "G", "XG", "XXG"],
     details: {
       title: "CONFORTO ANTISSUOR, FEITA PARCIALMENTE COM MATERIAIS RECICLADOS",
       content:
@@ -49,6 +52,7 @@ export const productsList = [
     price: 99.99,
     color: "black",
     sex: "male",
+    sizes: ["PP", "P", "XG", "XXG"],
     details: {
       title: "",
       content:
@@ -63,6 +67,7 @@ export const productsList = [
     price: 149.99,
     color: "black",
     sex: "female",
+    sizes: ["M", "G", "XG", "XXG"],
     details: {
       title: "ULTRALEVE E FEITA PARA SUPERAR OS SEUS LIMITES",
       content:
@@ -77,6 +82,7 @@ export const productsList = [
     price: 159.99,
     color: "blue",
     sex: "female",
+    sizes: ["P", "M", "XG", "XXG"],
     details: {
       title: "CLÁSSICA E ATEMPORAL, FEITA COM MATERIAIS RECICLADOS",
       content:
@@ -91,6 +97,7 @@ export const productsList = [
     price: 129.99,
     color: "white",
     sex: "female",
+    sizes: ["PP", "P", "M", "G", "XG", "XXG"],
     details: {
       title: "MODELAGEM JUSTA E MACIA COM ENERGIA ADIDAS",
       content:
@@ -99,4 +106,25 @@ export const productsList = [
   },
 ];
 
-export const menuItems = ["Contato", "Sobre", "Dúvidas"];
+export const menuItems = ["Contato", "Dúvidas"];
+
+export const sexOptions = [
+  { id: 0, name: "Todos", value: "all" },
+  { id: 1, name: "Masculino", value: "male" },
+  { id: 2, name: "Feminino", value: "female" },
+];
+
+export const colorOptions = [
+  { id: 0, name: "Preto", value: "black", hex: "#000" },
+  { id: 1, name: "Branco", value: "white", hex: "#fff" },
+  { id: 2, name: "Azul", value: "blue", hex: "#1b76d0" },
+];
+
+export const sizeOptions = [
+  { id: 0, name: "PP", value: "pp" },
+  { id: 1, name: "P", value: "p" },
+  { id: 2, name: "M", value: "m" },
+  { id: 3, name: "G", value: "g" },
+  { id: 4, name: "XG", value: "xg" },
+  { id: 5, name: "XXG", value: "xxg" },
+];
