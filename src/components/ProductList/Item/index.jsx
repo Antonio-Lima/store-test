@@ -19,7 +19,7 @@ export default function ProductItem({ item }) {
           Adicionar ao carrinho
         </button>
         <Link
-          href="/"
+          href={`/details/${item.id}`}
           className="text-center max-w-fit mx-auto px-3 border-b-2 border-white ease-in-out duration-300 hover:border-gray-950"
         >
           + Detalhes

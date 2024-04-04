@@ -19,7 +19,7 @@ export default function ColorCheckbox({ title, options, onChange }) {
   return (
     <div>
       <h1>{title}</h1>
-      <div className="flex gap-2">
+      <div className="flex flex-wrap gap-2">
         {options.map((item) => (
           <Checkbox
             key={item.id}

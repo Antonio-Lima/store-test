@@ -36,7 +36,7 @@ export default function Filter() {
           value={name}
           setValue={({ target: { value } }) => setName(value)}
         />
-        <div className="w-full flex items-end justify-between">
+        <div className="w-full flex flex-wrap md:flex-row items-start justify-between">
           <RadioGroup
             title="Sexo"
             options={sexOptions}
@@ -55,7 +55,7 @@ export default function Filter() {
           />
           <button
             onClick={() => handleSearch()}
-            className="p-2 border-2 border-gray-950 bg-gray-950 text-white duration-300 ease-in-out hover:bg-gray-300 hover:text-gray-950"
+            className="p-2 my-auto border-2 border-gray-950 bg-gray-950 text-white duration-300 ease-in-out hover:bg-gray-300 hover:text-gray-950"
           >
             <MdOutlineSearch size={24} />
           </button>
